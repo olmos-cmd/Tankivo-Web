@@ -2,6 +2,12 @@
 
 Öffentliche Informations- und Rechtstextseiten für die private Android-App **Tankivo**.
 
+## Programmvorschau
+
+<p align="center">
+  <img src="tankivo-programmvorschau.png" alt="Tankivo App – Programmvorschau" width="900">
+</p>
+
 ## Seiten
 
 - `index.html` – Startseite und Datenquellenhinweis
