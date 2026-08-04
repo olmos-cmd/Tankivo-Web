@@ -1,6 +1,6 @@
 # Tankivo Web
 
-Öffentliche Informations- und Rechtstextseiten für die private Android-App **Tankivo**.
+[Öffentliche Informations- und Rechtstextseiten für die private Android-App **Tankivo**.](https://olmos-cmd.github.io/Tankivo-Web/)
 
 ## Programmvorschau
 
