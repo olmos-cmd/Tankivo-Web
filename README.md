@@ -1,2 +1,28 @@
-# Tankivo-Web
-Öffentliche Informations- und Rechtstextseiten für die Android-App Tankivo
+# Tankivo Web
+
+Öffentliche Informations- und Rechtstextseiten für die private Android-App **Tankivo**.
+
+## Seiten
+
+- `index.html` – Startseite und Datenquellenhinweis
+- `datenschutz.html` – Datenschutzerklärung
+- `impressum.html` – Impressum
+- `style.css` – gemeinsames responsives Design
+
+## GitHub Pages
+
+Nach Aktivierung unter **Settings → Pages** mit
+
+- Source: `Deploy from a branch`
+- Branch: `main`
+- Folder: `/(root)`
+
+sind die Seiten erreichbar unter:
+
+- `https://olmos-cmd.github.io/Tankivo-Web/`
+- `https://olmos-cmd.github.io/Tankivo-Web/datenschutz.html`
+- `https://olmos-cmd.github.io/Tankivo-Web/impressum.html`
+
+## Datenquelle
+
+Die Preisdaten der App werden über die freie API von [Tankerkönig](https://www.tankerkoenig.de/) unter der Lizenz [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de) bezogen. Die Ursprungsdaten stammen von der Markttransparenzstelle für Kraftstoffe (MTS-K) des Bundeskartellamts.
