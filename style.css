@@ -1,0 +1,79 @@
+:root {
+  color-scheme: light dark;
+  --bg: #071426;
+  --surface: #0d1e35;
+  --surface-2: #122844;
+  --text: #f6f8fc;
+  --muted: #b7c3d4;
+  --blue: #4da3ff;
+  --orange: #ffad1f;
+  --border: rgba(255,255,255,.12);
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: radial-gradient(circle at top, #102a4d 0, var(--bg) 42%);
+  color: var(--text);
+  line-height: 1.65;
+}
+a { color: var(--blue); }
+header {
+  border-bottom: 1px solid var(--border);
+  background: rgba(5, 14, 27, .86);
+  backdrop-filter: blur(12px);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+nav, main, footer {
+  width: min(960px, calc(100% - 32px));
+  margin: 0 auto;
+}
+nav {
+  min-height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.brand { font-weight: 850; font-size: 1.25rem; color: #fff; text-decoration: none; }
+.brand span { color: var(--orange); }
+.links { display: flex; flex-wrap: wrap; gap: 14px; }
+.links a { text-decoration: none; color: var(--muted); font-weight: 650; }
+.links a:hover { color: #fff; }
+main { padding: 54px 0 70px; }
+.hero, .card {
+  background: linear-gradient(145deg, rgba(18,40,68,.94), rgba(9,25,46,.94));
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  box-shadow: 0 18px 55px rgba(0,0,0,.24);
+}
+.hero { padding: clamp(28px, 6vw, 56px); }
+.card { padding: 26px; margin-top: 22px; }
+h1 { margin: 0 0 12px; font-size: clamp(2.2rem, 8vw, 4.8rem); line-height: 1; }
+h1 .ivo { color: var(--orange); }
+h2 { margin-top: 0; font-size: 1.45rem; }
+h3 { margin-top: 26px; margin-bottom: 6px; }
+p { margin-top: 0; }
+.lead { font-size: 1.15rem; color: var(--muted); max-width: 720px; }
+.buttons { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 26px; }
+.button {
+  display: inline-block;
+  padding: 11px 17px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 750;
+  background: var(--blue);
+  color: #061426;
+}
+.button.secondary { background: var(--orange); }
+.notice { border-left: 4px solid var(--orange); padding-left: 16px; color: var(--muted); }
+address { font-style: normal; }
+footer { padding: 24px 0 40px; color: var(--muted); font-size: .94rem; }
+@media (max-width: 640px) {
+  nav { align-items: flex-start; flex-direction: column; padding: 14px 0; }
+  main { padding-top: 28px; }
+  .hero, .card { border-radius: 15px; }
+}
