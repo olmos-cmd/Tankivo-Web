@@ -13,6 +13,7 @@
 - `index.html` – Startseite und Datenquellenhinweis
 - `datenschutz.html` – Datenschutzerklärung
 - `impressum.html` – Impressum
+- `lizenzen.html` – Open-Source-Lizenzen und Drittanbieterhinweise
 - `style.css` – gemeinsames responsives Design
 
 ## GitHub Pages
@@ -28,6 +29,7 @@ sind die Seiten erreichbar unter:
 - `https://olmos-cmd.github.io/Tankivo-Web/`
 - `https://olmos-cmd.github.io/Tankivo-Web/datenschutz.html`
 - `https://olmos-cmd.github.io/Tankivo-Web/impressum.html`
+- `https://olmos-cmd.github.io/Tankivo-Web/lizenzen.html`
 
 ## Datenquelle
 
