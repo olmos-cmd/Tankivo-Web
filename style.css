@@ -94,4 +94,5 @@ footer { padding: 24px 0 40px; color: var(--muted); font-size: .94rem; }
   main { padding-top: 28px; }
   .hero, .card { border-radius: 15px; }
   .hero-logo { width: 100%; margin-bottom: 18px; }
+  h1.privacy-title { font-size: 1.45rem !important; line-height: 1.15 !important; }
 }
